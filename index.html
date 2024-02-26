@@ -6,6 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cornelius Aleonope Portfolio</title>
     <link rel="stylesheet" href="./style.css">
+    <style>
+        @media (max-width: 768px) {
+            header {
+                padding: 10px 0;
+            }
+
+            header h1 {
+                font-size: 24px;
+            }
+
+            nav ul li {
+                margin-right: 10px;
+            }
+
+            .cv-content {
+                width: 20%;
+                padding: 5px;
+            }
+
+            .cv-content a {
+                font-size: 5px;
+                font-weight: 100;
+            }
+
+            img {
+                width: 100%;
+                max-width: 200px;
+                height: auto;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -24,12 +55,12 @@
     <section id="cv">
         <div class="container">
             <h1>Curricullum vitae</h1>
-            <div class="cv-content">
+            <button class="cv-content">
                 <a href="./ALEONOPE CORNELIUS pdf cv.pdf" style="text-decoration: none; color: black;" download>
-                   <p>Download my CV</p>
+                    <p>Download CV</p>
                 </a>
                 <!-- CV content here -->
-            </div>
+            </button>
         </div>
     </section>
 
